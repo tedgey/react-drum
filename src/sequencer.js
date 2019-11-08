@@ -51,7 +51,7 @@ const Sequencer = ({ player }) => {
         setCurrentStep((currentStep + 1) % steps);
         nextStep(currentStep);
       }
-    }, 120 + Math.random() * 20);
+    }, 100 + Math.random() * 20);
     return () => {
       clearTimeout(timer);
     };
