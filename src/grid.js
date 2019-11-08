@@ -6,7 +6,7 @@ import IconFrame from "./icon-frame";
 import "./App.css";
 
 const Grid = ({ sequence, toggleStep }) => (
-  <wrapper className="frame-wrapper">
+  <div className="frame-wrapper">
     <IconFrame rows={8} columns={1} />
     <Frame rows={8} columns={16}>
       {sequence.map((line, i) =>
@@ -22,7 +22,7 @@ const Grid = ({ sequence, toggleStep }) => (
         ))
       )}
     </Frame>
-  </wrapper>
+  </div>
 );
 
 export default Grid;
