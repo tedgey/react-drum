@@ -1,4 +1,4 @@
-Drum Project for the Drum.io interview process.
+"Drum" Machine built with react.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
